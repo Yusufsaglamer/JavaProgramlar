@@ -11,9 +11,9 @@ public class KdvTutarOdev {
         System.out.print(" Ücret tutarı Giriniz : ");
         ucret=inp.nextDouble();
 
-        kdv=(ucret<=1000)?0.18:0.08;
-
         System.out.println(" KDVsiz Tutar:"+ucret);
+
+        kdv=(ucret<=1000)?0.18:0.08;
 
         kdvli=(ucret*kdv)+ucret;
         System.out.println(" KDV'li Fiyat : "+kdvli);

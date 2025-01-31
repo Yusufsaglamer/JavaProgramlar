@@ -23,8 +23,8 @@ public class YildizlarlaElmasYapimi {
             for (int p=1;p<=l;p++){
                 System.out.print(" ");
             }
-            int star=(n+1)-l;
-            for (int m=1;m<=2*star-3;m++){
+            int star=(n-l);
+            for (int m=1;m<=2*star-1;m++){
                 System.out.print("*");
             }
             System.out.println();
